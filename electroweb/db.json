@@ -1,0 +1,75 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "battery",
+        "category": "BATTERY",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-batteries-d.jpg",
+        "price": "1299.00"
+      },
+      {
+        "id": 2,
+        "title": "JUMP STARTER",
+        "category": "starter",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-jumpstarter-d.jpg",
+        "price": "1500.00"
+      },
+      {
+        "id": 3,
+        "title": "JUMPER CABLE",
+        "category": "cable",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-jumpercables-m.jpg",
+        "price": "1000.00"
+      },
+      {
+        "id": 4,
+        "title": "BRAKE ROTORS",
+        "category": "BRAKE ROTORS",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-rotors-t.jpg",
+        "price": "23.00"
+      },
+      {
+        "id": 5,
+        "title": "ENGINE OIL",
+        "category": "ENGINE OIL",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-antifreeze-t.jpg1",
+        "price": "600 .00"
+      },
+      {
+        "id": 6,
+        "title": "black tshirt",
+        "category": "category",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-deicer-d.jpg",
+        "price": "10.25"
+      },
+      {
+        "title": "deicer",
+        "category": "deicer",
+        "price": "200",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/Landing/SameDayDelivery/sdd-lp-wiperblades-t.jpg",
+        "id": 7
+      },
+      {
+        "title": "WINTER WIPER BLADES",
+        "category": "WINTER WIPER BLADES",
+        "price": "1000.00",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-winterwipers-t.jpg",
+        "id": 8
+      },
+      {
+        "category": "SPARK PLUGS",
+        "title": "SPARK PLUGS",
+        "price": "300.00",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/FY23/P0506/SplitBlocks/_fy23p0506-3svert-bosch-splugs-t.jpg",
+        "id": 9
+      },
+      {
+        "title": "ICE BELT",
+        "category": "shirt",
+        "price": "500.00",
+        "imageSrc": "https://www.autozone.com/cdn/images/B2C/US/media/content/FeatCat/evergreen-grid4-icemelt-t.jpg",
+        "id": 10
+      }
+   
+    ]
+  }

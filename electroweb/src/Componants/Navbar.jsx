@@ -1,3 +1,4 @@
+import { Link } from '@chakra-ui/react';
 
 import {
     Box,
@@ -9,11 +10,14 @@ import {
     useColorModeValue,
     useBreakpointValue,
     useDisclosure,
+    InputGroup
   } from '@chakra-ui/react';
   import {
     HamburgerIcon,
     CloseIcon,
+    SearchIcon,
   } from '@chakra-ui/icons';
+import Products from './products';
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
@@ -35,7 +39,7 @@ import {
             ml={{ base: -2 }}
             display={{ base: 'flex', md: 'none' }}>
             <IconButton
-              onClick={onToggle}
+               onClick={onToggle}
               icon={
                 isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
               }
@@ -43,7 +47,7 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }} spacing="60px">
+          <Flex flex={{ base: 1}} justify={{ base: 'center', md: 'start' }} spacing="60px">
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
@@ -52,11 +56,19 @@ import {
             </Text>
            
 
-            <Flex width="300px" marginLeft="40px" >
-            <input  type="search" role="searchbox" Border={1}   pr='4.5rem' BorderColor='lime' placeholder='Find Parts and Products'
- width="300px"          />
-            </Flex>
-        
+            <Stack width="300px" marginLeft="40px" >
+           
+            <InputGroup >
+    
+          <IconButton aria-label='Search database' icon={<SearchIcon />} />
+             <input type="searchbox" placeholder='Find Parts and Products'
+              size={50}/>
+      </InputGroup> 
+            </Stack>
+
+            <stack>
+              <Link as={Products} to='/products'></Link>
+            </stack>
             </Flex>
           <Stack
             flex={{ base: 1, md: 0 }}
